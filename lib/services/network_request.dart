@@ -1,5 +1,4 @@
 import 'dart:convert';
-import 'dart:async';
 import 'package:http/http.dart' as http;
 
 import 'package:api_with_flutter_river/model/photo-model.dart';
@@ -12,7 +11,8 @@ List<PhotoModel> parse_photo(String responseData) {
 }
 
 Future<List<PhotoModel>> FetchPhotos()async{
-  final response = await http.get(url)
+  final response = await http.get(Uri.parse("http://jsonplaceholder.typicode.com/photos"));
+
       
 
 }
