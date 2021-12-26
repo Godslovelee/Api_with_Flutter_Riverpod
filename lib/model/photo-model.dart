@@ -8,7 +8,7 @@ class PhotoModel {
   PhotoModel({this.albumId, this.id, this.title, this.url, this.thumbnailUrl});
 
   PhotoModel.fromJson(Map<String, dynamic> json) {
-    albumId = json['albumId'];
+    albumId = json['albumeeId'];
     id = json['id'];
     title = json['title'];
     url = json['url'];
