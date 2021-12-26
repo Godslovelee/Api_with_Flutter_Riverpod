@@ -11,7 +11,7 @@ List<PhotoModel> parse_photo(String responseData) {
   return photos;
 }
 
-Future<List<PhotoModel>> FetchPhotos()async{
+Future<List<PhotoModel>> fetchPhotos()async{
   final response = await http.get(Uri.parse("http://jsonplaceholder.typicode.com/photos"));
   if(response.statusCode==200){
     return compute(parse_photo, response.body);
