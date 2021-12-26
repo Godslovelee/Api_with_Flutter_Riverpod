@@ -7,3 +7,7 @@ List<PhotoModel> parse_photo(String responseData) {
 
   return photos;
 }
+
+Future<List<PhotoModel>> FetchPhotos()async{
+
+}
