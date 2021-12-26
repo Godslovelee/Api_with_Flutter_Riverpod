@@ -17,7 +17,7 @@ Future<List<PhotoModel>> fetchPhotos()async{
     return compute(parse_photo, response.body);
   }
   throw Exception(
-    "Can\'t get Photoeeeeeeeeee"
+    "Can\'t get Photoeeeeeeeeeee"
   );
 
 
