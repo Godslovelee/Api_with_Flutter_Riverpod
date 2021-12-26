@@ -16,6 +16,9 @@ Future<List<PhotoModel>> FetchPhotos()async{
   if(response.statusCode==200){
     return compute(parse_photo, response.body);
   }
+  throw Exception(
+    "Can\'t get Photo"
+  );
 
 
       
