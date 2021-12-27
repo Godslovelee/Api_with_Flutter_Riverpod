@@ -42,7 +42,7 @@ class MyHomePage extends ConsumerWidget{
                 ListTile(
                   leading: CircleAvatar(
                     backgroundImage: NetworkImage(
-                      photos[index]
+                      photos[index].thumbnailUrl
                     ),
 
                   ),
