@@ -34,7 +34,9 @@ class MyHomePage extends ConsumerWidget{
 
       ),
       body: photos.when(data: (photos){
-        return ListTile(
+        return ListView.builder(
+
+
 
         );
       }, loading: () => Center(), error: (err, ss) => Center(
