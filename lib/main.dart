@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context, ScopedReader watch) {
 
-    throw UnimplementedError();
+
   }
 
   }
