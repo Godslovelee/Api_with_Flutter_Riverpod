@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context, ScopedReader watch) {
     AsyncValue<List<PhotoModel>>photos = watch(photoState);
-    return null;
+    return ;
 
 
   }
