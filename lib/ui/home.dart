@@ -33,7 +33,7 @@ class MyHomePage extends ConsumerWidget{
         title: Text("API"),
 
       ),
-      body: ,
+      body: photos.when(data: data, loading: loading, error: error),
     );
   }
   }
