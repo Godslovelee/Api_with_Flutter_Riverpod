@@ -5,8 +5,8 @@ import 'package:http/http.dart' as http;
 import 'package:api_with_flutter_river/model/photo-model.dart';
 
 List<PhotoModel> parse_photo(String responseData) {
-  var list = json.decode(responseData) as List<dynamic>;
-  List<PhotoModel> photos = list.map((e) => PhotoModel.fromJson(e)).toList();
+  var photo_list = json.decode(responseData) as List<dynamic>;
+  List<PhotoModel> photos = photo_list.map((e) => PhotoModel.fromJson(e)).toList();
 
   return photos;
 }
