@@ -6,6 +6,16 @@ import 'package:api_with_flutter_river/model/photo-model.dart';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+
+class MyApp extends StatelessWidget {
+
+  @override
+  Widget build(BuildContext context) {
+
+    throw UnimplementedError();
+  }
+}
+
 class MyHomePage extends ConsumerWidget{
   @override
   Widget build(BuildContext context, ScopedReader watch) {
