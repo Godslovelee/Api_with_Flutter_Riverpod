@@ -15,7 +15,7 @@ Future<List<PhotoModel>> fetchPhotos()async{
   final response = await http.get(Uri.parse("http://jsonplaceholder.typicode.com/photos"));
   if(response.statusCode==200){
     return compute(parse_photo, response.body);
-  }
+  }else
   throw Exception(
     "Can\'t get Photo"
   );
