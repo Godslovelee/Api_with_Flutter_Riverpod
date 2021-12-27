@@ -28,7 +28,7 @@ class MyHomePage extends ConsumerWidget{
   Widget build(BuildContext context, ScopedReader watch) {
     AsyncValue<List<PhotoModel>>photos = watch(photoState);
     return Scaffold(
-      ,
+      body: ,
     );
   }
   }
