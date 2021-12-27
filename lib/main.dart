@@ -17,13 +17,4 @@ class MyApp extends StatelessWidget {
   }
   }
 
-  class MyHomePage extends ConsumerWidget{
-  @override
-  Widget build(BuildContext context, ScopedReader watch) {
-    AsyncValue<List<PhotoModel>>photos = watch(photoState);
-    return null;
 
-
-  }
-
-  }
