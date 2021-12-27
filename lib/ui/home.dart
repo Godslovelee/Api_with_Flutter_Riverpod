@@ -35,7 +35,7 @@ class MyHomePage extends ConsumerWidget{
       ),
       body: photos.when(data: (photos){
         return ListView.builder(
-          itemCount: ,
+          itemCount: photos,
 
 
 
