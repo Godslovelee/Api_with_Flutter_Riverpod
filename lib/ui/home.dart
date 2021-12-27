@@ -36,8 +36,13 @@ class MyHomePage extends ConsumerWidget{
       body: photos.when(data: (photos){
         return ListView.builder(
           itemCount: photos.length,
+          itemBuilder: (context, index){
+            Column(
+              children: [],
+            ),
 
 
+          }
 
         );
       }, loading: () => Center(), error: (err, ss) => Center(
