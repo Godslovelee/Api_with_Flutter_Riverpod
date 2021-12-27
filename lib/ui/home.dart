@@ -13,6 +13,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'API-CONNECT',
+      theme: ThemeData(
+        primarySwatch: Colors.blue
+      ),
       home: MyHomePage(),
     );
 
@@ -24,6 +27,8 @@ class MyHomePage extends ConsumerWidget{
   @override
   Widget build(BuildContext context, ScopedReader watch) {
     AsyncValue<List<PhotoModel>>photos = watch(photoState);
-    return null;
+    return Scaffold(
+      ,
+    );
   }
   }
