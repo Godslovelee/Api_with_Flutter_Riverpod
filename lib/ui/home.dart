@@ -39,6 +39,14 @@ class MyHomePage extends ConsumerWidget{
           itemBuilder: (context, index){
             return Column(
               children: [
+                ListTile(
+                  leading: CircleAvatar(
+                    backgroundImage: NetworkImage(
+                      photos[index]
+                    ),
+
+                  ),
+                )
 
               ],
             );
