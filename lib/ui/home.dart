@@ -43,8 +43,13 @@ class MyHomePage extends ConsumerWidget{
                   leading: CircleAvatar(
                     backgroundImage: NetworkImage(
                       photos[index].thumbnailUrl
+
                     ),
 
+
+                  ),
+                  title: Text(
+                    '${photos[index].title}'
                   ),
 
                 )
