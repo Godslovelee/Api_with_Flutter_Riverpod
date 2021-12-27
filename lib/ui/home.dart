@@ -33,7 +33,9 @@ class MyHomePage extends ConsumerWidget{
         title: Text("API"),
 
       ),
-      body: photos.when(data: data, loading: () => Center(), error: ()),
+      body: photos.when(data: data, loading: () => Center(), error: (err, ss) => Center(
+        child: Text("cant load"),
+      )),
 
     );
   }
