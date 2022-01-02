@@ -5,7 +5,7 @@ A new Flutter application.
 ## Getting Started
 ##Incase the flutter version doesnt enable you to build the app, DO THIS:
 ## Enable Hardware acceleration : flutter run --enable-software-rendering
-## alternatively
+## alternatively, flutter clean
 
 This project is a starting point for a Flutter application.
 
